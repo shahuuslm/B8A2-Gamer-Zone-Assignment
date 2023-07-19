@@ -454,33 +454,27 @@ footer .contact a{
 /* Footer styles ends */
 
 @media screen and (max-width: 576px) {
-    body{
-        background-size: cover;
+    html, body{
+        overflow-x: hidden;
     }
 
-    header{
+    header,.careers,nav, nav>ul,.banner, .we-are-gamer, .games, .play-instant, .game{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    nav, nav>ul{
-        flex-direction: column;
+    .banner, .we-are-gamer, .games, .play-instant, footer{
+        padding: 50px;  
     }
-    .banner, .we-are-gamer, .games, .play-instant, .careers{
-        display: flex;
-        flex-direction: column;
-        
+    .career-details, .game{
+        padding: 20px;
     }
     .banner{
         flex-direction: column-reverse;
-        padding: 0px;
     }
     .we-are-gamer-details, .play-instant-details, .we-are-gamer-title{
         text-align: center;
-    }
-    .we-are-gamer, .career-details, .games{
-        padding:0px;
     }
  
     footer .about, .contact{
@@ -493,6 +487,7 @@ footer .contact a{
     }
     .scnd-img{
         left:100px;
-    }
+    } 
+ 
 
 }
