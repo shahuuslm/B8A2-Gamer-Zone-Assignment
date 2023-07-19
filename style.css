@@ -453,6 +453,7 @@ footer .contact a{
 }
 /* Footer styles ends */
 
+/* Styles for mobile view */
 @media screen and (max-width: 576px) {
     html, body{
         overflow-x: hidden;
