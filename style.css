@@ -252,7 +252,7 @@ nav li a {
     border: 2px solid #FF42A5;
     border-radius: 10px;
 }
-.overlay-container:hover .overlay{
+.game:hover .overlay{
     cursor: pointer;
     opacity: 1;
 }
